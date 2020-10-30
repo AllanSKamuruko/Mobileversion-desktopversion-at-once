@@ -22,6 +22,18 @@ body {
     font-weight: bold;
     color:white;
 }
+  .nav_item {
+    display: block;
+    padding: 20px 0;
+    border-bottom: 1px solid #3498db;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #2980b9;
+    color: white;
+  }
+  .nav_link {
+    text-align: center;
+  }
 .main {
     padding:10px;
 }
@@ -139,3 +151,24 @@ body {
         margin-left: 20px;
     }
 }
+@media (min-width: 619px) {
+    .header {
+        margin:20px;
+    }
+    .nav_list {
+        margin:20px;
+        width:900px;
+    }
+     .nav_item {
+      display:inline;   
+      background-color: black; 
+      width:900px; 
+      border-width: 100%;
+    }
+    
+    .nav_list:hover {
+      transition: all 1s ease;
+      max-width: 9999px;
+      max-height: 9999px;
+    }
+  }
